@@ -1,0 +1,26 @@
+{
+  "name": "readme_gerenator",
+  "version": "1.0.0",
+  "description": "Readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdemkovich/README_Gerenator.git"
+  },
+  "keywords": [
+    "Readme"
+  ],
+  "author": "Svetlana Demkovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdemkovich/README_Gerenator/issues"
+  },
+  "homepage": "https://github.com/sdemkovich/README_Gerenator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0"
+  }
+}
