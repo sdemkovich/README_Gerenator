@@ -1,21 +1,29 @@
 function generateMarkdown(data) {
     return `
     
-  # ${data.username}
-  # At least one badge
+  # ${data.projectTitle}
+  ## Description
+  ${data.description}
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ## License
+  ${data.license}
+  ## Contributing
+  ## Tests
+  ${data.tests}
+  ## Questions
+    * User GitHub profile picture
+    * User GitHub email
+
+  ${data.username}
+  ## At least one badge
   ${data.badge}
-  # Project title
-  ${data.title}
-  # Description
-  # Table of Contents
-  # Installation
-  # Usage
-  # License
-  # Contributing
-  # Tests
-  # Questions
-    ## User GitHub profile picture
-    ## User GitHub email
+  
+  
+  
+  
+    
   
   `;
   }
