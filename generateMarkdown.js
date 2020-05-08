@@ -7,6 +7,9 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
+  [Display](https://giphy.com/gifs/YmPXTojReJhXgxxGzk/html5)
+
+
   ## Installation
   To install necessary dependencies, run the following command:
 

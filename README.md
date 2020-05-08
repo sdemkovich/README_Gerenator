@@ -4,7 +4,7 @@
   ![alt text](https://img.shields.io/badge/license-MIT-blue) 
 
   ## Description
-  Helps to write README file
+  Helps to generate Readme file
 
   ## Installation
   To install necessary dependencies, run the following command:
@@ -12,7 +12,7 @@
   npm i
 
   ## Usage
-  After clone make a copy of .env.sample
+  After clone make an .env.sample and fill in you enviroment variables
 
   ## License
   This project is licenced under the MIT license.
@@ -26,6 +26,6 @@
   npm test
 
   ## Questions
-  If you have any questions about the repo, open an issue or contact [sdemkovich](https://github.com/sdemkovich) directly at svetlana.demkovich@gmail.com
+  If you have any questions please contact me at [sdemkovich](sdemkovich) and svetlana.demkovich@gmail.com
 
   
