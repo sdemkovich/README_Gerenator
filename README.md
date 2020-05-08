@@ -1,12 +1,12 @@
 
-  # README-Generator
+  # README-Genertor
 
   ![alt text](https://img.shields.io/badge/license-MIT-blue) 
 
   ## Description
   Helps to generate Readme file
 
-  [Display](https://giphy.com/gifs/YmPXTojReJhXgxxGzk/html5)
+  ![Demo-Gif](https://giphy.com/gifs/YmPXTojReJhXgxxGzk/html5)
 
 
   ## Installation
@@ -15,13 +15,13 @@
   npm i
 
   ## Usage
-  After clone make a copy of .env.sample and fill in your environment variables
+  After clone make a copy of .env.sample
 
   ## License
   This project is licenced under the MIT license.
 
   ## Contributing
-  Hit me on Slack
+  HIt me on Slack
 
   ## Tests
   To run tests, run the following command:

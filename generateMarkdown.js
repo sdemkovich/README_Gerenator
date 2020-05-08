@@ -7,7 +7,7 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
-  [Display](https://giphy.com/gifs/YmPXTojReJhXgxxGzk/html5)
+  ![Demo-Gif](https://giphy.com/gifs/YmPXTojReJhXgxxGzk/html5)
 
 
   ## Installation
