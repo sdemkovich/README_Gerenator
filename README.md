@@ -1,12 +1,12 @@
 
-  # README-Genertor
+  # README-Generator
 
   ![alt text](https://img.shields.io/badge/license-MIT-blue) 
 
   ## Description
-  Helps to generate Readme file
+  Helps to generate Readme
 
-  ![Demo-Gif](https://giphy.com/gifs/YmPXTojReJhXgxxGzk/html5)
+  ![Demo-Gif](https://media.giphy.com/media/YmPXTojReJhXgxxGzk/giphy.gif)
 
 
   ## Installation
@@ -21,7 +21,7 @@
   This project is licenced under the MIT license.
 
   ## Contributing
-  HIt me on Slack
+  Hit me on Slack
 
   ## Tests
   To run tests, run the following command:
