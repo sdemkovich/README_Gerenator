@@ -1,40 +1,34 @@
 function generateMarkdown(data) {
     return `
   # ${data.projectTitle}
-    ${data.badge}
+
+  ![alt text](https://img.shields.io/badge/license-${data.license}-blue) 
 
   ## Description
   ${data.description}
 
   ## Installation
   To install necessary dependencies, run the following command:
+
   ${data.installation}
 
   ## Usage
   ${data.usage}
 
   ## License
-  ${data.license}
+  This project is licenced under the ${data.license} license.
 
   ## Contributing
   ${data.contributing}
 
   ## Tests
+  To run tests, run the following command:
+
   ${data.tests}
 
   ## Questions
-    * User GitHub profile picture
-    * User GitHub email
+  If you have any questions about the repo, open an issue or contact [sdemkovich](https://github.com/sdemkovich) directly at ${data.email}
 
-  ${data.username}
-  ## At least one badge
-  
-  
-  
-  
-  
-    
-  
   `;
   }
   

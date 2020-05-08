@@ -34,7 +34,7 @@ function init() {
             type: "list",
             name: "license",
             message: "What badge do you want to use?",
-            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+            choices: ["MIT", "APACHE2", "GPL", "BSD", "None"]
         },
         {
             type: "input",
@@ -57,35 +57,28 @@ function init() {
             type: "input",
             name: "contributing",
             message: "What does the user need to know about contributing to the repo?"
-        },
-
+        }
     ]).then(answers => {
-        // var result = "";
-        // const mrkd = generateMarkdown(data)
-        // if (data.badge == "MIT") {
-        //     data.badge = 
-        // }
-        // Pass data into generateMarkdown function
-        // Pas returned data into fs.writeFile
-        // console.log(answers.length)
-        // const keys = Object.keys(answers)
-        // for (i = 0; i < keys.length; i++) {
-        //     var key = keys[i]
-        //     var val = answers[key]
-        //     result +=  key + " : " + val;
-        //     result += "\n";
-            
-        // }
+
+        const queryUrl = `https://api.github.com/users/${answers.username}/repos?per_page=100"`;
+
+        axios.get(queryUrl).then(function (res) {
+            const repoNames = res.data.map(function (repo) {
+                return repo.name;
+
+                // console.log(repo.name);
+            });
+        });
+
         const result = generateMarkdown(answers)
-        
+
         fs.writeFile("Readme.md", result, (err) => {
             if (err) {
                 return console.log(err);
             }
             console.log("Success!");
         });
-
     })
-
 }
+
 init();
